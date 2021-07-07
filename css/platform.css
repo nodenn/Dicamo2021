@@ -1,0 +1,363 @@
+.menu>.category li:nth-child(2) a{
+  /* font-weight: 500 !important; */
+  color: #769BC0 !important;
+}
+
+
+/*main*/
+#container {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 70px;
+}
+.page_title_area {
+  width: 100%;
+  height: 300px;
+  background: url(../img/selfservice.jpg) no-repeat center/cover;
+  margin: 0 auto;
+  position: relative;
+}
+.page_title_area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.page_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.page_title h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.page_cont_area {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.page_cate {
+  background: #333333;
+  /* padding: 17px 0; */
+}
+.page_cate ul {
+  margin: 0 auto;
+  display: table;
+  width: 20%;
+  table-layout: fixed;
+}
+.page_cate ul li{
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  width: 180px;
+  height: 70px;
+}
+.page_cate ul li a {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 22px 0;
+  height: 70px;
+  font-size: 16px;
+  color: #fff;
+}
+.page_cate ul li:nth-child(2) {
+  background: #fff;
+}
+.page_cate ul li:nth-child(2) a {
+  color: #000;
+}
+
+#article {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 40px;
+  overflow: hidden;
+}
+.product_info {
+  position: relative;
+  display: block;
+  max-width: 100%;
+}
+.product_info p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.product_info .fa {
+  font-size: 18px;
+  margin-right: 7px;
+}
+.product {
+  margin-top: 20px;  
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #333;
+  font-size: 16px;
+  word-break: keep-all;
+  table-layout: fixed;
+}
+.product tbody tr {
+  display: table-row;
+}
+.product tbody tr th:first-child {
+  background: #f5f5f5;
+  text-align: left;
+}
+.product tbody tr th {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 20px;
+  font-weight: 500;
+}
+.product tbody tr td {
+  padding: 15px 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+.product tbody tr:first-child td {
+  font-weight: 500; 
+}
+
+.model {
+  max-width: 1200px;
+  margin-top: 120px;
+}
+.model p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.model .fa {
+  font-size: 18px;
+  margin-right: 7px;
+}
+.modelBox {
+  top: 60px;
+  position: relative;
+  display: block;
+}
+.inner {
+  position: relative;
+  text-align: center;
+  float: left;
+  width: 31%;
+  margin-left: 3.5%;
+  height: 180px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+}
+.inner:first-child {
+  margin: 0;
+}
+.inner>p {
+  position: relative;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-top: 15px;
+}
+.inner h3 {
+  position: absolute;
+  width: 70%;
+  background: #2D3773;
+  color: #fff;
+  border-radius: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -26px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.modelBox p {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.price {
+  position: relative;
+  display: block;
+  margin-top: 160px;
+}
+.price p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.price .fa {
+  font-size: 18px;
+  margin-right: 7px;
+}
+.plat_price {
+  margin-top: 20px;  
+  width: 100%;
+  border-collapse: collapse;
+  /* border-top: 1px solid #333; */
+  font-size: 16px;
+  word-break: keep-all;
+  text-align: center;
+  table-layout: fixed;
+}
+.plat_price tbody tr {
+  display: table-row;
+}
+.plat_price tbody tr:first-child td {
+  padding: 5px;
+}
+.plat_price tbody tr:first-child td div {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+}
+.plat_price tbody tr th {
+  padding-right: 5px;
+}
+.plat_price tbody tr th div{
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 5px;
+  height: 130px;
+}
+.plat_price tbody tr:nth-child(2) th div {
+  height: auto;
+  padding: 15px;
+}
+.plat_price tbody tr:nth-child(2) td {
+  border: 1px solid #ddd;
+}
+.plat_price tbody tr:nth-child(3) td {
+  border: 1px solid #ddd;
+}
+.plat_price tbody tr th div p{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.company_info {
+  position: relative;
+  display: block;
+  margin: 15px 0;
+}
+.company_info h3 {
+  margin-bottom: 10px;
+}
+.company {
+  margin: 0 auto;
+  position: relative;
+  width: 70%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  table-layout: fixed;
+}
+.company tbody tr {
+  border-bottom: 1px solid #ddd;
+  display: table-row;
+}
+.company tbody tr th, .company tbody tr td {
+  border-right: 1px solid #ddd;
+  padding: 7px 0;
+  overflow: hidden;
+}
+.company tbody tr th {
+  font-weight: 400;
+}
+.company tbody tr:first-child, .company tbody tr:first-child th {
+  font-weight: 500;
+}
+
+.func {
+  margin-top: 120px;
+}
+.func p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.func .fa {
+  font-size: 18px;
+  margin-right: 7px;
+}
+.func h3 {
+  margin-top: 10px;
+}
+.plat_func {
+  margin-top: 20px;  
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #333;
+  font-size: 16px;
+  word-break: keep-all;
+  text-align: center;
+  table-layout: fixed;
+}
+.plat_func tbody tr {
+  display: table-row;
+}
+.plat_func tbody tr th {
+  font-weight: 500;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 20px;
+  border-right: 1px solid #ddd;
+}
+.plat_func tbody tr th:last-child {
+  border-right: 0;
+}
+.plat_func tbody tr:first-child {
+  background: #f5f5f5;
+}
+.plat_func tbody tr td {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.plat_func tbody tr td:last-child {
+  border-right: 0;
+}
+
+.policy {
+  margin-top: 120px;
+}
+.policy p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.policy .fa {
+  font-size: 18px;
+  margin-right: 7px;
+}
+.plat_policy {
+  margin-top: 20px;  
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  word-break: keep-all;
+  table-layout: fixed;
+}
+.plat_policy tbody tr th {
+  text-align: center;
+  font-weight: 500;
+  padding: 5px 0;
+}
+.plat_policy tbody tr th div {
+  padding: 50px 0;
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+.plat_policy tbody tr td {
+  padding: 20px 0 20px 30px;
+  line-height: 1.8em;
+}

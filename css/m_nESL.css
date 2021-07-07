@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px){
+  #article {
+    padding-bottom: 0;
+  }
+  .intro_list li {
+    width: 100%;
+  }
+}

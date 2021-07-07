@@ -1,0 +1,36 @@
+@media screen and (max-width: 1024px){
+  .page_cate ul {
+    width: 100%;
+  }
+  .page_cate ul li {
+    width: 33.33%;
+  }
+
+  .info {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+  .info_img{
+    margin: 0;
+    float: none;
+  }
+  .info_img img {
+    margin: 0 auto;
+  }
+  .info_desc {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .infoBox {
+    display: block;
+    margin: 0 auto;
+  }
+  .organization {
+    max-width: 1200px;
+  }
+}

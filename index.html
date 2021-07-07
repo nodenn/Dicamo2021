@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DICAMO</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/m_default.css">
+  <link rel="stylesheet" href="css/m_index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+</head>
+<body>
+  <div id="wrap">
+    <div id="header">
+      <div class="header_inner">
+        <h2 class="logo">
+          <a href="index.html" class="logo_dicamo">
+            <img src="img/dicamoLogo.png" alt="">
+          </a>
+        </h2>
+        <div class="menu">
+          <ul class="category">
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="nESL.html">SERVICE</a>
+            </li>
+            <li>
+              <a href="notice.html">INFO</a>
+            </li>
+            <li>
+              <a href="location.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="slide_menu">
+          <input type="checkbox" id="trigger">
+          <label for="trigger">
+              <span></span>
+              <span></span>
+              <span></span>
+          </label>
+          <div class="sidebar">
+              <ul>
+                <li>
+                  <div class="cate_title">
+                    <span>ABOUT</span>
+                  </div>
+                  <div class="cate_desc">
+                    <a href="about.html">회사소개</a>
+                    <a href="partner.html">파트너</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="cate_title">
+                    <span>BUSINESS</span>
+                  </div>
+                  <div class="cate_desc">
+                    <a href="nESL.html">차세대 전자가격표시기</a>
+                    <a href="platform.html">플랫폼 소개</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="cate_title">
+                    <span>INFO</span>
+                  </div>
+                  <div class="cate_desc">
+                    <a href="notice.html">공지사항</a>
+                    <a href="news.html">뉴스</a>
+                    <a href="gallery.html">고객사례</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="cate_title">
+                    <a href="location.html">오시는 길<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                  </div>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="scroll-animate">
+      <div id="main full scroll-animate-main">
+        <div id="container" class="wrapper-parallax">
+          <div class="slide">
+            <div class="slide_inner">
+              <div class="tab fade">
+                <div class="tab_desc">
+                  <h1>DICAMO</h1>
+                  <p>DISPLAY / SENSOR / DIGITAL SIGNAGE</p>
+                </div>
+                <div class="tab_img"></div>
+              </div>
+              <div class="tab fade">
+                <div class="tab_desc">
+                  <h1>DICAMO</h1>
+                  <p>디지털 사이니지를 통해 새롭고 다양한 홍보효과를 경험해보세요.</p>
+                </div>
+                <div class="tab_img"></div>
+              </div>
+            </div>
+  
+            <div class="btn" style="visibility: hidden;">
+              <span class="dot" onclick="currentSlide(0)"></span>
+              <span class="dot" onclick="currentSlide(1)"></span>
+            </div>
+          </div>
+  
+          <div class="section content">
+            <div class="section_inner">
+              <div class="service">
+                <div class="service_title">
+                  <h3>서비스</h3>
+                </div>
+                <ul>
+                  <li>
+                    <div class="item">
+                      <div class="itemBg">
+                        <div class="bg"></div>
+                      </div>
+                      <div class="desc">
+                        <a href="nESL.html">
+                          <h2>차세대 전자가격표시기</h2>
+                          <div class="more">
+                            <span>more<i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <div class="itemBg">
+                        <div class="bg"></div>
+                      </div>
+                      <div class="desc">
+                        <a href="platform.html">
+                          <h2>플랫폼</h2>
+                          <div class="more more2">
+                            <span>more<i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              
+              <div class="make">
+                <div class="make_box">
+                  <div class="make_title">
+                    <h2>디카모가 만들어갑니다.</h2>
+                    <p>
+                      일본과 약 10여년의 협업 경험을 보유하고 있는 디카모는
+                      <br>
+                      일본의 편의점 또는 슈퍼마켓용 디지털 사이니지 하드웨어 소프트웨어를 개발하여 수출하고 있습니다.
+                    </p>
+                  </div>
+                  <div class="make_list">
+                    <ul>
+                      <li>
+                        <div class="make_img">
+                          <img src="img/iconfinder_06.Tags_290148 (1).png" alt="">
+                        </div>
+                        <p><span>사용자의 <b>발걸음 유도</b></span><br>디지털 사이니지를 통하여 편리한 구매 및 홍보를 돕습니다.</p>
+                      </li>
+                      <li>
+                        <div class="make_img">
+                          <img src="img/iconfinder_33.Thumbs-Up_290117 (1).png" alt="">
+                        </div>
+                        <p><span>사용자의 <b>흥미유발</b></span><br>센서를 통해 사용자의 연령대별 물건을 추천합니다.</p>
+                      </li>
+                      <li>
+                        <div class="make_img">
+                          <img src="img/iconfinder_47.Explore_290103 (1).png" alt="">
+                        </div>
+                        <p><span>개발부터 관리까지</span><br>디카모가 돕습니다.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="news">
+                <div class="news_inner">
+                  <div class="news_title">
+                    <h2>뉴스</h2>
+                  </div>
+                  <div class="news_contents">
+                    <ul class="news_list">
+                      <li>
+                        <a href="">
+                          <div class="news_desc">
+                            <h4>기사제목</h4>
+                            <p>부제목</p>
+                            <span class="date">2020-01-01</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <div class="news_desc">
+                            <h4>기사제목</h4>
+                            <p>부제목</p>
+                            <span class="date">2020-01-01</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                            <div class="news_desc">
+                            <h4>기사제목</h4>
+                            <p>부제목</p>
+                            <span class="date">2020-01-01</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <div class="news_desc">
+                            <h4>기사제목</h4>
+                            <p>부제목</p>
+                            <span class="date">2020-01-01</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="news_more">
+                    <a href="news.html">more<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div id="footer">
+            <div class="footer_wrap">
+              <div class="footer_logo">
+                <h2>
+                  <a href="">DICAMO</a>
+                </h2>
+              </div>
+              <div class="information">
+                <div>
+                  <p>
+                    08390 서울특별시 구로구 디지털로26길 123 303호(구로동, 지플러스타워)
+                    <br>
+                    대표자 : 윤필구, 박주봉 | 사업자등록번호 : 293-87-01349
+                    <br>
+                    TEL : 02-2017-4281 / 010-5262-2540 | FAX : 030334422540
+                    <br>
+                    <br>
+                    <span>COPYRIGHT ©DICAMO.ALL RIGHTS RESERVED</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("tab");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000);
+  }
+  </script>
+  <!-- <script>
+    function scrollFooter(scrollY, heightFooter)
+{
+    console.log(scrollY);
+    console.log(heightFooter);
+
+    if(scrollY >= heightFooter)
+    {
+        $('#footer').css({
+            'bottom' : '0px'
+        });
+    }
+    else
+    {
+        $('#footer').css({
+            'bottom' : '-' + heightFooter + 'px'
+        });
+    }
+}
+
+$(window).load(function(){
+    var windowHeight        = $(window).height(),
+        footerHeight        = $('#footer').height(),
+        heightDocument      = (windowHeight) + ($('.content').height()) + ($('#footer').height()) - 20;
+
+    // Definindo o tamanho do elemento pra animar
+    $('#scroll-animate, #scroll-animate-main').css({
+        'height' :  heightDocument + 'px'
+    });
+
+    // Definindo o tamanho dos elementos header e conteúdo
+    $('.slide').css({
+        'height' : windowHeight + 'px',
+        'line-height' : windowHeight + 'px'
+    });
+
+    $('.wrapper-parallax').css({
+        'margin-top' : windowHeight + 'px'
+    });
+
+    scrollFooter(window.scrollY, footerHeight);
+
+    // ao dar rolagem
+    window.onscroll = function(){
+        var scroll = window.scrollY;
+
+        $('#scroll-animate-main').css({
+            'top' : '-' + scroll + 'px'
+        });
+        
+        $('.slide').css({
+            'background-position-y' : 50 - (scroll * 100 / heightDocument) + '%'
+        });
+
+        scrollFooter(scroll, footerHeight);
+    }
+});
+  </script> -->
+</body>
+</html>

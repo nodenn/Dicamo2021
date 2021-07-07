@@ -1,0 +1,131 @@
+.menu>.category li:nth-child(3) a{
+  /* font-weight: 500 !important; */
+  color: #769BC0 !important;
+}
+
+
+/*main*/
+#container {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 70px;
+}
+.page_title_area {
+  width: 100%;
+  height: 300px;
+  background: url(../img/news.jpg) no-repeat center/cover;
+  margin: 0 auto;
+  position: relative;
+}
+.page_title_area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.page_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.page_title h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.page_cont_area {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.page_cate {
+  background: #333333;
+  /* padding: 17px 0; */
+}
+.page_cate ul {
+  margin: 0 auto;
+  display: table;
+  width: 24%;
+  table-layout: fixed;
+}
+.page_cate ul li{
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  width: 150px;
+  height: 70px;
+}
+.page_cate ul li a {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 22px 0;
+  height: 70px;
+  font-size: 16px;
+  color: #fff;
+}
+.page_cate ul li:nth-child(2) {
+  background: #fff;
+}
+.page_cate ul li:nth-child(2) a {
+  color: #000;
+}
+
+#article {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 0;
+  overflow: hidden;
+}
+.news_contents {
+  display: block;
+}
+.news_list li{
+  border: 1px solid #ccc;
+  display: block;
+  float: left;
+  width: 48%;
+  margin: 0 1% 2% 1%;
+  height: 160px;
+}
+/* .news_list li:nth-child(odd) {
+  margin-right: 2%;
+} */
+.news_list li a {
+  position: relative;
+  display: block;
+  padding: 20px;
+  height: 100%;
+}
+.news_list li a h3 {
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.news_list li a p {
+  margin-top: 5px;
+  color: #666;
+}
+.news_list li a span {
+  position: absolute;
+  display: block;
+  /* margin-top: 40px; */
+  bottom: 25px;
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+.news_list li:hover {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+}
+.news_list li:hover a h3 {
+  color: #769BC0;
+}
