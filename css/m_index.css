@@ -35,6 +35,13 @@
   .news_list li:nth-child(odd) {
     margin-left: 0;
   }
+
+  /* ver.2 */
+  .wrapper-parallax {
+    margin-top: 470px;
+    margin-bottom: 170px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
 }
 
 @media screen and (max-width: 480px){
@@ -72,9 +79,3 @@
   }
 }
 
-/* ver.2 */
-.wrapper-parallax {
-  margin-top: 470px;
-  margin-bottom: 170px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-}

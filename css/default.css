@@ -121,3 +121,68 @@ div {
 .information span {
   font-size: 13px;
 }
+
+
+
+/* ver.2 */
+
+#scroll-animate {
+  overflow: hidden;
+}
+
+#scroll-animate-main {
+  width: 100%;
+  left: 0;
+  position: fixed;
+}
+
+.wrapper-parallax {
+  margin-top: 670px;
+  margin-bottom: 170px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  /* height: 100%; */
+  margin-top: 0;
+}
+
+
+.silde,
+#footer,
+#scroll-animate-main
+{
+  -webkit-transition-property: all;
+     -moz-transition-property: all;
+      transition-property: all;
+
+  -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+     -moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+      transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+#heightPage,
+#heightScroll
+{
+  width: 10px;
+  top: 0;
+  position: absolute;
+  z-index: 99;
+}
+
+#heightPage
+{
+  left: 0;
+}
+
+#heightScroll
+{
+  right: 0;
+}

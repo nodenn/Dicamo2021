@@ -44,6 +44,7 @@
   width: 100%;
   margin: 0 auto;
   display: block;
+  background: #fff;
 }
 .page_cate {
   background: #333333;
@@ -103,3 +104,4 @@
     width: 33.33%;
   }
 }
+
