@@ -1,24 +1,30 @@
 "# Dicamo2021" 
 
-github 사용 참고 : https://victorydntmd.tistory.com/91
++ github 사용 참고 : https://victorydntmd.tistory.com/91
++ 마크다운 기초 문법 : https://blog.naver.com/ycpiglet/222307838439
 
-A
-# git init
-# git add .
-# git commit -m "프로젝트 시작"
-# git remote add origin 깃헙주소
-# git push origin master
+***
 
-# git clone 깃헙주소
+## A
+
+1. git init
+2. git add .
+3. git commit -m "프로젝트 시작"
+4. git remote add origin 깃헙주소
+5. git push origin master
+
+6. git clone 깃헙주소
 
 
-B
+## B
 
-# git branch brchB
+1. git branch brchB
 
-# git add .
-# git commit -m "기능 구현 완료"
+2. git add .
+3. git commit -m "기능 구현 완료"
 
-# git checkout master
-# git merge brchB
-# git push origin master
+4. git checkout master
+5. git merge brchB
+6. git push origin master
+
+***
