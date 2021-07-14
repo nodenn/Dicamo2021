@@ -1,8 +1,27 @@
-@media screen and (max-width: 768px){
-  #article {
-    padding-bottom: 0;
-  }
+/* @media screen and (max-width: 768px){ */
+@media screen and (max-width: 1024px){
   .intro_list li {
+    height: 300px;
     width: 100%;
+  }
+  .intro_list li dt {
+    padding: 10px 0 15px 0;
+    padding-left: 32px;
+  }
+  .intro_list li dt h3 {
+    font-size: 28px;
+  }
+  .intro_list li dd {
+    padding-left: 32px;
+  } 
+  .item_box {
+    transition: 0.5s;
+  }
+  .intro_list>li:hover .box_inner::before {
+    background: rgba(255, 255, 255, 0);
+    left: 40px;
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
   }
 }
