@@ -1,4 +1,4 @@
-"# Dicamo2021" 
+"# SummerClass2021" 
 
 + github 사용 참고 : https://victorydntmd.tistory.com/91
 + 마크다운 기초 문법 : https://blog.naver.com/ycpiglet/222307838439
