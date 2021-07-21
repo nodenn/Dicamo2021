@@ -2,6 +2,7 @@
 
 + github 사용 참고 : https://victorydntmd.tistory.com/91
 + 마크다운 기초 문법 : https://blog.naver.com/ycpiglet/222307838439
++ vscode에서 git 사용 : https://blog.naver.com/lovyellow923/222386003985
 
 ***
 
@@ -28,3 +29,5 @@
 6. git push origin master
 
 ***
+
++ 사업자등록증, 전화번호같은거 가급적 제외
