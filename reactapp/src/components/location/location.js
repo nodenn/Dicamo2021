@@ -1,5 +1,7 @@
 import React, {useEffect, createRef, useState} from 'react';
 
+import './css/location.css';
+
 function Location() {
   const map = createRef();
   const { maps } = window.naver;

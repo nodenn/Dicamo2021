@@ -1,19 +1,17 @@
 import React, {useEffect, createRef, useState} from 'react';
 
 import Header from '../header';
-import Slide from './slide';
-import Service from './service';
-import News from './news';
-import Location from './location';
 import Footer from '../footer';
-import './css/main.css';
+import Home from './main';
+import About from '../about/about';
+import Location from '../location/location';
+import nESL from '../nESL/nESL';
+
 import './css/default.css';
 import './css/m_default.css';
-import './css/m_index.css';
-import './css/location.css';
 
 function Main() {
-  const [selectedMenu, setSelectedMenu] = useState("news");
+  const [selectedMenu, setSelectedMenu] = useState("index");
   useEffect(()=> {
     console.log(selectedMenu)
     }, [selectedMenu]);
@@ -23,20 +21,21 @@ function Main() {
     <div id="scroll-animate">
       <div id="main full scroll-animate-main">
         <div id="section" className="wrapper-parallax">
+            
           {selectedMenu === "index" ?
-            <Slide />:
+            <Home />:
+            null
+          }
+          {selectedMenu === "about" ?
+            <About />:
+            null
+          }
+          {selectedMenu === "nESL" ?
+            <nESL />:
             null
           }
           {selectedMenu === "location" ?
             <Location />:
-            null
-          }
-          {selectedMenu === "index" ?
-            <Service /> :
-            null
-          }      
-          {selectedMenu === "index" ?
-            <News />:
             null
           }
             </div>
