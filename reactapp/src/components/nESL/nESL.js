@@ -1,3 +1,5 @@
+import './css/nESL.css';
+
 function nESL(props) {
 
   return (
@@ -10,8 +12,8 @@ function nESL(props) {
       <div className="page_cont_area">
         <div className="page_cate">
           <ul>
-            <li><a href="nESL" onClick={()=>props.setMenu('nESL')}>차세대 전자가격표시기</a></li>
-            <li><a href="platform" onClick={()=>props.setMenu('platform')}>플랫폼 소개</a></li>
+            <li><a href="#" onClick={()=>props.setMenu('nESL')}>차세대 전자가격표시기</a></li>
+            <li><a href="#" onClick={()=>props.setMenu('platform')}>플랫폼 소개</a></li>
           </ul>
         </div>
       </div>

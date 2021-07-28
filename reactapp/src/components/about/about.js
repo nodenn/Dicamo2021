@@ -1,20 +1,9 @@
 import './css/about.css';
+// import Partner from './partner';/
 
-function About(props) {
+function About() {
   return (
-    <div className="wrapper-parallax-inner">
-      <div className="page_title_area">
-        <div className="page_title">
-          <h2>회사소개</h2>
-        </div>
-      </div>
       <div className="page_cont_area">
-        <div className="page_cate">
-          <ul>
-            <li><a href="about" onClick={()=>props.setMenu('about')}>회사소개</a></li>
-            <li><a href="partner" onClick={()=>props.setMenu('partner')}>파트너</a></li>
-          </ul>
-        </div>
         <div id="article">
           <p>
             리테일 매장의 디지털화를 지향하는
@@ -50,7 +39,6 @@ function About(props) {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

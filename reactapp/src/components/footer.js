@@ -1,6 +1,31 @@
+import { useRef, useEffect, useCallback, useState, createRef } from 'react';
+
 function Footer() {
+  const [ScrollY, setScrollY] = useState(0);
+  // const footer = createRef();
+  const [Footer, setFooter] = useState(false);
+  
+  const showFooter = () => {
+    setScrollY(window.pageYOffset);
+    if(ScrollY>200) {
+      setFooter(true);
+    } else {
+      setFooter(false);
+    }
+  }
+
+  useEffect(()=>{
+    const show = () => {
+      window.addEventListener('scroll', showFooter)
+    }
+    show();
+    return() => {
+      window.removeEventListener('scroll', showFooter)
+    }
+  })
+
   return (
-    <div id="footer">
+    <div className={Footer ? "footer active" : "footer"}>
       <div className="footer_wrap">
         <div className="footer_logo">
           <h2>

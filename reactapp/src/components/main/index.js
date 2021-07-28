@@ -4,6 +4,7 @@ import Header from '../header';
 import Footer from '../footer';
 import Home from './main';
 import About from '../about/about';
+import Intro from '../about/intro';
 import Location from '../location/location';
 import nESL from '../nESL/nESL';
 
@@ -26,8 +27,8 @@ function Main() {
             <Home />:
             null
           }
-          {selectedMenu === "about" ?
-            <About />:
+          {selectedMenu === "intro" ?
+            <Intro />:
             null
           }
           {selectedMenu === "nESL" ?

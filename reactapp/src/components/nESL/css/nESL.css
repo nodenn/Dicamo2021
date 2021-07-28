@@ -75,15 +75,15 @@
   word-break: keep-all;
 }
 .item1 {
-  background: url(../img/data.jpg) no-repeat center/cover;
+  background: url(../../../img/data.jpg) no-repeat center/cover;
 }
 .item2 {
-  background: url(../img/kiosk.jpg) no-repeat center/cover;
+  background: url(../../../img/kiosk.jpg) no-repeat center/cover;
 }
 .item3 {
-  background: url(../img/sensor.jpg) no-repeat center/cover;
+  background: url(../../../img/sensor.jpg) no-repeat center/cover;
 }
-.item3 dd>p >span {
+.item3 dd>p>span {
   display: inline-block;
   padding-bottom: 10px;
   font-weight: 500;

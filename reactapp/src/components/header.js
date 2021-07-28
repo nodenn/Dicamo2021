@@ -10,16 +10,16 @@ function Header(props) {
         <div className="menu">
           <ul className="category">
             <li>
-              <a href="about" onClick={()=>props.setMenu('about')}>ABOUT</a>
+              <a href="#" onClick={()=>props.setMenu('about')}>ABOUT</a>
             </li>
             <li>
-              <a href="nESL" onClick={()=>props.setMenu('nESL')}>SERVICE</a>
+              <a href="#" onClick={()=>props.setMenu('nESL')}>SERVICE</a>
             </li>
             <li>
-              <a href="notice" onClick={()=>props.setMenu('notice')}>INFO</a>
+              <a href="#" onClick={()=>props.setMenu('notice')}>INFO</a>
             </li>
             <li>
-              <a href="location" onClick={()=>props.setMenu('location')}>CONTACT</a>
+              <a href="#" onClick={()=>props.setMenu('location')}>CONTACT</a>
             </li>
           </ul>
         </div>
@@ -37,8 +37,8 @@ function Header(props) {
                     <span>ABOUT</span>
                   </div>
                   <div className="cate_desc">
-                    <a href="about" onClick={()=>props.setMenu('about')}>회사소개</a>
-                    <a href="partner" onClick={()=>props.setMenu('partner')}>파트너</a>
+                    <a href="#" onClick={()=>props.setMenu('about')}>회사소개</a>
+                    <a href="#" onClick={()=>props.setMenu('partner')}>파트너</a>
                   </div>
                 </li>
                 <li>
@@ -46,8 +46,8 @@ function Header(props) {
                     <span>BUSINESS</span>
                   </div>
                   <div className="cate_desc">
-                    <a href="nESL" onClick={()=>props.setMenu('nESL')}>차세대 전자가격표시기</a>
-                    <a href="platform" onClick={()=>props.setMenu('platform')}>플랫폼 소개</a>
+                    <a href="#" onClick={()=>props.setMenu('nESL')}>차세대 전자가격표시기</a>
+                    <a href="#" onClick={()=>props.setMenu('platform')}>플랫폼 소개</a>
                   </div>
                 </li>
                 <li>
@@ -55,14 +55,14 @@ function Header(props) {
                     <span>INFO</span>
                   </div>
                   <div className="cate_desc">
-                    <a href="notice" onClick={()=>props.setMenu('notice')}>공지사항</a>
-                    <a href="news" onClick={()=>props.setMenu('news')}>뉴스</a>
-                    <a href="gallery" onClick={()=>props.setMenu('gallery')}>고객사례</a>
+                    <a href="#" onClick={()=>props.setMenu('notice')}>공지사항</a>
+                    <a href="#" onClick={()=>props.setMenu('news')}>뉴스</a>
+                    <a href="#" onClick={()=>props.setMenu('gallery')}>고객사례</a>
                   </div>
                 </li>
                 <li>
                   <div className="cate_title">
-                    <a href="location" onClick={()=>props.setMenu('location')}>오시는 길<i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="#" onClick={()=>props.setMenu('location')}>오시는 길<i className="fa fa-angle-right" aria-hidden="true"></i></a>
                   </div>
                 </li>
               </ul>

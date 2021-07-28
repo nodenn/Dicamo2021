@@ -1,0 +1,27 @@
+/*main*/
+
+.page_cate ul li:nth-child(1) {
+  background: #fff;
+}
+.page_cate ul li:nth-child(1) a {
+  color: #000;
+}
+#article>p {
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.3em;
+  font-weight: 400;
+}
+#article>p span {
+  font-weight: 700;
+  position: relative;
+}
+#article>p span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 98%;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #000;
+}
